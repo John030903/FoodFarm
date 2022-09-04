@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+p{
+    margin-bottom:0px !important;
+}
+/*main*/
+.right{float: right !important;}
+.right0{right: 0;}
+.left{float: left;}
+
+.white{color: #fff !important;}
+.black{color: #000 !important;}
+.grey{color: #777777 !important;}
+.green{color: #b7dc36 !important;}
+
+.uppercase{text-transform: uppercase;}
+
+.font16{font-size: 16px}
+.font12{font-size: 12px;}
+.font15{font-size: 15px;}
+.font20{font-size: 20px;}
+.spacing{letter-spacing: 2px;}
+.fontw750{font-weight: 750;}
+.fontw600{font-weight: 600;}
+.fontw400{font-weight: 400;}
+
+.opacity{opacity: 0.7;}
+
+.center{text-align: center;}
+.center-item{margin-inline: auto !important;}
+.top{top:0 !important}
+.inline{display: inline-block;}
+.block{display: block !important;}
+.col-half{width: 50%;}
+.col-third{width: 33%;height: 52px;}
+
+.bgreen{background-color: #b7dc36 !important;}
+.lheight{line-height: 1.6;}
+
+.left10{padding-left: 10px;}
+.right10{padding-right: 10px;}
+.padr48{padding-right: 48px;}
+.padtop36{padding-top: 36px;}
+.padbottom20{padding-bottom: 20px;}
+.pad16{padding: 16px;}
+.padb10{padding-bottom: 10px;}
+
+.marginb4{margin-bottom: 4px !important;}
+.margint10{margin-top: 10px !important;}
+.marginb10{margin-bottom: 10px !important;}
+
+.pora{position: relative;}
+.poab{position: absolute;}
+
+.overflow{overflow: hidden;}
+/*main*/
+#header .main-header{
+    background-color: #b7dc36;
+    color: #fff;
+    height: 35px;
+    width: 100%;
+    line-height: 35px;
+    padding: 0 15px;
+}
+#header .main-header p, a {
+    display: inline-block;
+    text-decoration: unset !important;
+    font-size: 15px;
+}
+#header .main-header a + a{
+    border-right: white 1.5px solid ;
+    padding:0 12px;
+    margin-right: 15px;
+}
+.column {
+    float: left;
+    width: 33.33333333333%;
+  }
+.content-header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.content-header{
+    height: 176px;
+}
+.time-active , .timebox {
+    border: solid 1.5px #ccc;
+}
+.timebox{
+    margin: 3px;
+}
+.time-active{
+    margin-top: 30px;
+    max-width: 270.4px;
+    max-height: 108px;
+}
+.food-farm{
+    padding-left: 20%;  
+    margin-top: 56px;
+}
+.header-search {
+    margin-top: 45px;
+}
+.header-search .buttom-search {
+    padding: 11.5px 11px 10.5px 11px;
+}
+.header-search i{
+    padding: 12px 0;
+}
+.box-search input {
+    background-color: #f2f2f2;
+    border: none;
+    width: 70%;
+    height: 38px;
+}
+.box-search input:focus-visible{
+    outline: none;
+}
+::placeholder{
+    color: #999;
+    padding: 10px;
+    font-size: 15px;
+}
+.navbar-main {
+    padding: 0 80px;
+    border-top: 1.5px #ccc solid;
+    height: 47.5px;
+}
+.navbar-main >div{
+    line-height: 48px;
+}
+
